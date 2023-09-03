@@ -2,7 +2,7 @@ body {
 
     font-family: Arial, sans-serif;
     text-align: center;
-    background-image: url('bg2.webp');
+
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -46,6 +46,17 @@ h1 {
 
 .slider-container {
     text-align: center;
+}
+
+.instruction-image {
+    max-width: 58%;
+    /* Make sure it doesn't exceed its container's width */
+    height: auto;
+    /* Maintain aspect ratio */
+    display: block;
+    /* Remove any potential inline spacing */
+    margin: 10px auto;
+    /* Center the image horizontally with a little margin */
 }
 
 #result {
