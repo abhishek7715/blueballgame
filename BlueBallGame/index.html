@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Number Guessing Game</title>
+</head>
+
+<body>
+    <h1>Number Guessing Game</h1>
+    <div class="game-container">
+        <div class="balls-container">
+            <!-- Generate 10 balls -->
+            <div class="ball" id="ball-1">1</div>
+            <div class="ball" id="ball-2">2</div>
+            <div class="ball" id="ball-3">3</div>
+            <div class="ball" id="ball-4">4</div>
+            <div class="ball" id="ball-5">5</div>
+            <div class="ball" id="ball-6">6</div>
+            <div class="ball" id="ball-7">7</div>
+            <div class="ball" id="ball-8">8</div>
+            <div class="ball" id="ball-9">9</div>
+            <div class="ball" id="ball-10">10</div>
+        </div>
+        <div class="slider-container">
+
+            <input type="range" id="slider" min="1" max="10">
+            <p id="result"></p>
+            <p id="attempt"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

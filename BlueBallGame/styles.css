@@ -1,0 +1,65 @@
+body {
+
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url('bg2.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+h1 {
+    margin-bottom: 65px;
+    margin-top: 95px;
+    color: #05cbf8;
+}
+
+#slider {
+    color: bisque;
+    width: 670px;
+    cursor: pointer;
+}
+
+.game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.balls-container {
+
+    display: flex;
+    justify-content: center;
+    margin-bottom: 44px;
+}
+
+.ball {
+
+    width: 50px;
+    height: 50px;
+    background-color: #4da0dc;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+
+.slider-container {
+    text-align: center;
+}
+
+#result {
+    margin-top: 28px;
+    font-size: 34px;
+    font-family: cursive;
+    font-weight: bold;
+
+}
+
+#attempt {
+    display: block;
+    color: rgb(128, 0, 23);
+    font-size: 26px;
+    font-family: cursive;
+    font-weight: bold;
+}
